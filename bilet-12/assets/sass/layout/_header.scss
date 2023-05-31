@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    background-color: white;
+    .saitama{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            i{
+                font-size:x-large;
+            }
+
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                i{
+                    font-size:x-large;
+                }
+            }
+        }
+    }
+}
+@media  (max-width: 768px) {
+    header{
+        .genos{
+            display: none;
+        }
+    }
+  }

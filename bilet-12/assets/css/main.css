@@ -1,0 +1,368 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+ul, li, a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+header {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  background-color: white;
+}
+header .saitama {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .saitama .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+header .saitama .left i {
+  font-size: x-large;
+}
+header .saitama ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+header .saitama ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+header .saitama ul li i {
+  font-size: x-large;
+}
+
+@media (max-width: 768px) {
+  header .genos {
+    display: none;
+  }
+}
+.astr {
+  z-index: -5;
+}
+
+nav {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  background-color: rgb(52, 58, 64);
+  position: relative;
+}
+nav .tatsumaki {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+nav .tatsumaki i {
+  color: white;
+  font-size: x-large;
+  display: none;
+}
+nav .tatsumaki .atomic_samurai {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+nav .tatsumaki .bang {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  top: 1px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+}
+nav .tatsumaki .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+nav .tatsumaki .right .btn1 {
+  color: white;
+  background-color: inherit;
+  border: 1px solid rgb(124, 189, 30);
+  padding: 10px;
+  width: 100px;
+}
+nav .tatsumaki .right .btn2 {
+  color: white;
+  background-color: rgb(124, 189, 30);
+  border: none;
+  padding: 10px;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  nav #bar {
+    display: block;
+  }
+  nav .atomic_samurai li {
+    display: none;
+  }
+}
+main {
+  width: 100%;
+  margin: auto;
+  max-width: 1500px;
+  position: relative;
+  z-index: 7;
+}
+main .processor {
+  height: 650px;
+  position: relative;
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/1432675/pexels-photo-1432675.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-attachment: fixed;
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .processor .dark {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 650px;
+  opacity: 0.5;
+  z-index: -1;
+}
+main .processor .flash {
+  margin: auto;
+  height: 650px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+main .processor .flash .top {
+  font-size: xxx-large;
+  color: white;
+}
+main .processor .flash .bottom .btn2 {
+  color: white;
+  background-color: inherit;
+  border: 1px solid rgb(124, 189, 30);
+  padding: 15px;
+  width: 200px;
+  height: 70px;
+}
+main .processor .flash .bottom .btn1 {
+  color: white;
+  background-color: rgb(124, 189, 30);
+  border: none;
+  padding: 15px;
+  width: 200px;
+  height: 70px;
+}
+main .fubuki {
+  width: 100%;
+  background-color: rgb(232, 235, 238);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+main .fubuki .king {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+main .fubuki .king .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .fubuki .king .top h2 {
+  width: 60%;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 300;
+}
+main .fubuki .king .bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+main .fubuki .king .bottom .box {
+  width: 300px;
+  height: 355px;
+  display: flex;
+  font-size: large;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 30px;
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+main .fubuki .king .bottom .box i {
+  font-size: xxx-large;
+  color: rgb(124, 189, 30);
+}
+main .fubuki .king .bottom .box button {
+  color: white;
+  background-color: rgb(124, 189, 30);
+  border: none;
+  padding: 10px;
+  width: 100px;
+}
+main .zombieman {
+  height: 650px;
+  position: relative;
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-attachment: fixed;
+  z-index: -2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .zombieman .box {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  height: 650px;
+  gap: 30px;
+}
+main .zombieman .box p {
+  font-size: x-large;
+}
+main .zombieman .box h2 {
+  font-size: xxx-large;
+}
+main .zombieman .box button {
+  color: white;
+  background-color: rgb(124, 189, 30);
+  border: none;
+  padding: 15px;
+  width: 200px;
+  height: 70px;
+}
+main .zombieman .dark {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 650px;
+  opacity: 0.5;
+  z-index: -1;
+}
+main .darkshine {
+  width: 100%;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+main .darkshine .tanktop {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+main .darkshine .tanktop .top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .darkshine .tanktop .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+main .darkshine .tanktop .bottom .box {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 20px;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+}
+main .darkshine .tanktop .bottom .box .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  main .processor .flash .top {
+    font-size: x-large;
+  }
+  main .fubuki .king .top h2 {
+    width: 100%;
+    font-size: large;
+  }
+}
+footer {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  height: 400px;
+  background-color: #393e46;
+}
+footer .blast {
+  color: rgb(173, 169, 169);
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+footer .blast i {
+  color: red;
+}/*# sourceMappingURL=main.css.map */

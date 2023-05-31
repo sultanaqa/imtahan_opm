@@ -1,0 +1,19 @@
+footer{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    height: 400px;
+    background-color: #393e46;
+    .blast{
+        color: rgb(173, 169, 169);
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        i{
+            color: red;
+        }
+    }
+}
